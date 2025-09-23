@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(34, 1, 87);
+}
+.subtitulo-1 {
+  background-color: rgb(46, 43, 43);
+  color: white;
+}
+
+header {
+  background-color: black;
+  align-content: center;
+  padding-left: 600px;
+  position: sticky;
+}
+
+#logo-nav {
+  width: 250px;
+  align-content: center;
+}
+
+li {
+  color: white;
+}
+
+.conte-img {
+  width: 700px;
+  position: initial;
+}
+
+.contenedor {
+  display: flex;
+}
+
+.img {
+  height: 340px;
+  width: 200px;
+}
