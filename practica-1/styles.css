@@ -1,0 +1,41 @@
+* {
+  transition: all 1s ease;
+}
+
+li {
+  font-size: 15px;
+  font-family: Century Gothic;
+}
+
+h2,
+h3 {
+  font-family: Century Gothic;
+  color: rgb(129, 11, 60);
+}
+
+.redondito-img {
+  border-radius: 50%;
+  background-color: rgb(226, 138, 160);
+  width: 320px;
+  height: 320px;
+  display: flex;
+  overflow: clip;
+  border-style: dotted;
+  border-color: antiquewhite;
+  padding: 5px;
+  transition: transform 0.5s ease-in-out scale(0.8);
+  cursor: crosshair;
+}
+#imagenBelu {
+  width: 380px;
+  height: auto;
+  margin: -30px;
+}
+
+.redondito-img:hover {
+  transform: rotate(360deg);
+}
+
+a {
+  text-decoration: none;
+}
