@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Formulario Practica 2</title>
+  </head>
+  <body>
+    <div id="contenedor">
+      <img id="logo" src="./img/epicwhite.png" />
+
+      <div class="contenedor-redes">
+        <a href="https://www.facebook.com/login" target="_blank">
+          <button class="botonFacebook">
+            <img class="imgBotones" src="./img/facebook.svg" /></button
+        ></a>
+
+        <a href="https://www.google.com/login" target="_blank"
+          ><button class="botonGoogle">
+            <img class="imgBotones" src="./img/google.png" /></button
+        ></a>
+
+        <a
+          href="https://my.account.sony.com/sonyacct/signin/?duid=0000000700090100382a893f74322d42bd953dc8a955f8cc01c590828a744a7945e912f2aff40e79&response_type=code&client_id=e4a62faf-4b87-4fea-8565-caaabb3ac918&scope=web%3Acore&access_type=offline&state=d2012ea106e8b24d8b49f7b8839bed3a745de728f5401e5b8486c88b5d39603c&service_entity=urn%3Aservice-entity%3Apsn&ui=pr&smcid=web%3Apdc&redirect_uri=https%3A%2F%2Fweb.np.playstation.com%2Fapi%2Fsession%2Fv1%2Fsession%3Fredirect_uri%3Dhttps%253A%252F%252Fio.playstation.com%252Fcentral%252Fauth%252Flogin%253Flocale%253Des_BO%2526postSignInURL%253Dhttps%25253A%25252F%25252Fwww.playstation.com%25252Fes-bo%25252Flogin%25252F%2526cancelURL%253Dhttps%25253A%25252F%25252Fwww.playstation.com%25252Fes-bo%25252Flogin%25252F%26x-psn-app-ver%3D%2540sie-ppr-web-session%252Fsession%252Fv5.41.1&auth_ver=v3&error=login_required&error_code=4165&error_description=User+is+not+authenticated&no_captcha=true&cid=809d51bb-81c6-4917-9ccb-c95eb5346ea4#/signin/input/id"
+          target="_blank"
+          ><button class="botonPlay">
+            <img class="imgBotones" src="./img/playstation.svg" /></button
+        ></a>
+
+        <a
+          href="xbox.com/es-ES/auth/msa?action=logIn&returnUrl=https%3A%2f%2fwww.xbox.com%2fes-ES%2flive"
+          target="_blank"
+          ><button class="botonXbox">
+            <img class="imgBotones" src="./img/xbox.svg" /></button
+        ></a>
+
+        <a href="https://accounts.nintendo.com/login?lang=es-ES" target="_blank"
+          ><button class="botonSwitch">
+            <img class="imgBotones" src="./img/switch.png" /></button
+        ></a>
+      </div>
+
+      <form>
+        <p class="subtitulo">REGISTRARSE</p>
+
+        <div class="campoMis">
+          <select>
+            <option>Argentina</option>
+            <option>Bolivia</option>
+            <option>Chile</option>
+            <option>Colombia</option>
+          </select>
+        </div>
+
+        <div class="contenedor-columnas">
+          <div class="columna-contenido">
+            <div>
+              <input type="text" id="nombre" placeholder="*Nombres" required />
+            </div>
+          </div>
+
+          <div class="columna-contenido">
+            <div>
+              <input
+                type="text"
+                id="apellido"
+                placeholder="*Apellidos"
+                required
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="campoMis">
+          <input type="text" placeholder="*Nombre de Usuario" required />
+        </div>
+
+        <div class="campoMis">
+          <input
+            type="email"
+            placeholder="*Dirección de Correo Electrónico"
+            required
+          />
+        </div>
+
+        <div class="campoMis">
+          <input type="password" placeholder="*Contraseña" required />
+        </div>
+
+        <div class="campoReq">
+          <label>
+            <input type="checkbox" requires />
+            Me gustaría recibir noticias, encuestas y ofertas especiales de Epic
+            Games.
+          </label>
+        </div>
+
+        <div class="campoReq">
+          <label>
+            <input type="checkbox" required />
+            He leído y acepto los <a href="#">términos de servicio</a>
+          </label>
+        </div>
+
+        <div class="botoncito">
+          <button id="botonEnviar">Crear Cuenta</button>
+        </div>
+
+        <div class="campoMis2">
+          <a><p>Política de Privacidad</p></a>
+          <br />
+          <p>
+            ¿Tienes una cuenta de Epic Games?
+            <a href="https://www.epicgames.com/id/login">Iniciar Sesión</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

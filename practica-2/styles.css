@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 500px;
+  background-color: rgb(43, 43, 43);
+  padding: 30px 50px;
+}
+#logo {
+  height: 50px;
+}
+
+.contenedor-redes {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-redes button {
+  flex-grow: 1;
+  width: 72px;
+  height: 60px;
+  border: none;
+}
+
+.imgBotones {
+  height: 25px;
+}
+
+.botonFacebook {
+  background-color: rgb(26, 72, 173);
+}
+
+.botonGoogle {
+  background-color: rgb(255, 255, 255);
+}
+
+.botonPlay {
+  background-color: rgb(97, 205, 255);
+}
+
+.botonXbox {
+  background-color: rgb(16, 97, 30);
+}
+
+.botonSwitch {
+  background-color: rgb(255, 0, 0);
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.subtitulo {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.contenedor-columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  width: 100%;
+}
+
+.columna-contenido {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contenedor-columnas input,
+.contenedor-columnas select,
+.campoMis select,
+.campoMis input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: #4b4b4b;
+  color: white;
+  padding: 8px;
+}
+
+input:focus,
+select:focus {
+  background-color: #818181;
+}
+
+label {
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+}
+
+::placeholder {
+  color: rgb(224, 224, 224);
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.botoncito {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.campoReq {
+  font-family: sans-serif;
+  color: #f0f0f0;
+  width: 100%;
+}
+
+.campoReq label {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.4;
+  gap: 10px;
+  font-weight: normal;
+}
+
+.campoMis2 p {
+  color: white;
+}
+
+.campoReq label a,
+.campoMis2 p a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#botonEnviar {
+  background-color: rgb(37, 37, 37);
+  color: rgb(146, 146, 146);
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.campoMis2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}

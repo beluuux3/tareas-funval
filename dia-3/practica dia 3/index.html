@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div id="contenedor">
+      <h3>FORMULARIO NOCHES DE HOGAR</h3>
+
+      <form>
+        <div class="campoMis">
+          <label>MISIONEROS:</label>
+          <select>
+            <option>Aramayo y Zurita</option>
+            <option>Beltran y Zurita</option>
+            <option>Aramayo y Zurita</option>
+            <option>Aramayo y Zurita</option>
+          </select>
+        </div>
+
+        <div class="contenedor-columnas">
+          <div class="columna-contenido">
+            <div>
+              <label for="nombre">Nombre Familia:</label>
+              <input
+                type="text"
+                id="nombre"
+                placeholder="Ej. Ramirez Portocarrero"
+                required
+              />
+            </div>
+            <div>
+              <label for="direc">Direccion:</label>
+              <input
+                type="text"
+                id="direc"
+                placeholder="Avenida, calle, No."
+                required
+              />
+            </div>
+            <div>
+              <label for="fecha">Fecha Visita:</label>
+              <input type="date" id="fecha" required />
+            </div>
+          </div>
+
+          <div class="columna-contenido">
+            <div>
+              <label for="cantFam">Cantidad Miembros Familia:</label>
+              <input
+                type="text"
+                id="cantFam"
+                onkeydown="return event.key !== 'e' && event.key !== 'E' && event.key !== '+' && event.key !== '-'"
+                required
+              />
+            </div>
+            <div>
+              <label for="cel">Celular Referencia:</label>
+              <input type="tel" id="cel" maxlength="8" required />
+            </div>
+            <div>
+              <label for="hora">Hora Visita:</label>
+              <input type="time" id="hora" required />
+            </div>
+          </div>
+        </div>
+
+        <div class="botoncito">
+          <button>ENVIAR</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
