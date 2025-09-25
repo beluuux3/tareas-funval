@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border-style: solid;
+  width: 200px;
+  height: 600px;
+  position: relative;
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 0;
+}
+
+.caja1 {
+  background-color: red;
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+
+.caja2 {
+  background-color: blue;
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+
+.caja3 {
+  background-color: violet;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+
+.caja4 {
+  background-color: brown;
+  position: absolute;
+  top: 558px;
+  right: 195px;
+}
+
+.caja5 {
+  background-color: green;
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}

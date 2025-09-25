@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  color: white;
+  font-size: 50px;
+  font-family: century gothic;
+}
+
+nav {
+  background-color: blueviolet;
+  width: 30%;
+  height: 100%;
+}
+
+.cont1 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecera {
+  background-color: darkmagenta;
+  height: 30%;
+}
+
+.cont2 {
+  height: 60%;
+  width: 100%;
+  display: flex;
+}
+
+.imagen {
+  height: 100%;
+  background-color: darkcyan;
+  width: 80%;
+}
+
+.articulos {
+  height: 100%;
+  background-color: darkorange;
+  width: 30%;
+}
+
+.art1 {
+  background-color: aqua;
+  height: 50%;
+}
+
+.art2 {
+  background-color: rgb(36, 192, 49);
+  height: 50%;
+}
+
+.foot {
+  height: 30%;
+  background-color: goldenrod;
+}
+
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
