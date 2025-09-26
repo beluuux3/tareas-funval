@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: sans-serif;
+}
+
+.cabecera {
+  background-color: darksalmon;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.contenedor {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.conte2 {
+  height: 64%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.caja1 {
+  background-color: red;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 20px;
+  font-size: 50px;
+}
+
+.caja2 {
+  background-color: rgb(17, 187, 255);
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.caja3 {
+  background-color: red;
+  height: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+  font-size: 50px;
+}
+
+.foot {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pie1 {
+  background-color: yellow;
+  height: 49%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.pie2 {
+  background-color: yellow;
+  height: 49%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-style: italic;
+}
+
+@media (min-width: 640px) {
+  .cabecera {
+    background-color: lightskyblue;
+  }
+
+  .conte2 {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .caja1 {
+    background-color: red;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+    font-size: 50px;
+  }
+
+  .caja2 {
+    background-color: red;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+    font-size: 50px;
+  }
+  .caja3 {
+    background-color: rgb(82, 255, 47);
+    height: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1024px) {
+  .cabecera {
+    background-color: rgb(1, 243, 1);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+  }
+
+  .contenedor {
+    height: 65%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .conte2 {
+    height: 100%;
+    width: 67%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .caja1 {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    padding: 20px;
+    justify-content: center;
+    font-size: 70px;
+  }
+
+  .caja2 {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    padding: 20px;
+    justify-content: center;
+    font-size: 70px;
+  }
+  .caja3 {
+    background-color: red;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: start;
+    padding: 20px;
+    justify-content: center;
+    font-size: 70px;
+  }
+
+  .foot {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .pie1 {
+    background-color: yellow;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    justify-content: end;
+    font-size: 25px;
+    font-style: italic;
+  }
+
+  .pie2 {
+    background-color: yellow;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: start;
+    font-size: 25px;
+    font-style: italic;
+  }
+}
